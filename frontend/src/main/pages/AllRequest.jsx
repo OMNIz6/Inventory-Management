@@ -52,7 +52,7 @@ export default class AllRequest extends Component{
                         <div className="col-2 t-row">{request.stocks}</div>
                         <div className="col-3 t-row">{request.items.map(item=> <div>{item.name},</div>)}</div>
                         <div className="col-2 t-row">
-                            
+                        Retail Store {request.retail.retail_id}
                         </div>
                     </div>)} 
                     
