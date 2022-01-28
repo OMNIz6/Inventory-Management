@@ -1,0 +1,133 @@
+.board-con{
+    display: flex;
+    padding: 1.5rem 4rem;
+    gap: 1rem;
+}
+.ware-select-con{
+    width: 20%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.ware-select{
+    font-weight: 700;
+    border: none;
+    border-bottom: solid 2px #000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap');
+.board{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 30%;
+    margin: auto;
+    color: #fff;
+    padding: 0 2rem;
+}
+.board-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.board-number{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.total-board, .over-board, .out-board{
+    padding:1rem 0;
+    border-radius: 6px;
+}
+.total-board{
+    background-color: #C55A11;
+}
+.over-board{
+    background-color: #35BB30;
+}
+.out-board{
+    background-color: #D12424;
+}
+
+.inv-head-con{
+    display: flex;
+    color: #fff;
+    margin: 0 5rem;
+    padding: 0.6rem 4rem;
+    background-color: #C55A11;
+}
+.inv-head-text{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.btn-item-add{
+    all: unset;
+    color: #C55A11;
+    border: solid 2px #C55A11;
+    background-color: #fff;
+    padding: 0.2rem 2rem;
+    padding-top: 0.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: auto;
+}
+.btn-item-send{
+    all: unset;
+    color: #C55A11;
+    border: solid 2px #C55A11;
+    background-color: #fff;
+    padding: 0.2rem 2rem;
+    padding-top: 0.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.btn-item-add:hover, .btn-item-send:hover{
+    color: #fff;
+    border: solid 2px #fff;
+    background-color:#C55A11 ;
+}
+.inv-container{
+    background-color: #fff;
+    margin: 0 5rem;
+    border: #C55A11 solid 2px;
+    padding: 1rem 3rem;
+}
+.table-header,.table-row{  
+    display: flex;
+
+}
+.table-header{
+    padding-bottom: 1rem;
+}
+.table-row{
+    border-top: solid #C55A11 0.1px;
+}
+.t-header{
+    padding: 0.4rem 0.4rem;
+    color: #000;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    
+}
+.t-row{
+    padding: 1.2rem 0.5rem;
+    color: #000;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+.t-row a{
+    text-decoration: none;
+}
+.btn-stocks-add{
+    all: unset;
+    color: #C55A11;
+    display: block;
+
+    border: solid 2px #C55A11;
+    background-color: #fff;
+    padding: 0.2rem;
+    padding-top: 0.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: auto;
+    font-size: 1rem;
+}

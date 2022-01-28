@@ -1,0 +1,4 @@
+app:
+  auth:
+    tokenSecret: superdupersecurepasswordhahaha
+    tokenExpirationMsec: 86400000

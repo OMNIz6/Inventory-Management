@@ -1,0 +1,37 @@
+.header-con{
+    background-color: #C55A11;
+    display: flex;
+    padding: 0.7rem;
+}
+.btn-out{
+    all: unset;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    background-color: #C55A11;
+    padding: 0.2rem 0.3rem;
+    padding-top: 0.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.btn-out:hover{
+    color: #C55A11;
+    background-color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+p{
+    margin:0 !important;
+}
+.logo{
+    font-family: 'Dongle', sans-serif;
+    color: #ffff;
+    font-size: 2.6rem;
+    line-height: 2rem;
+    padding-top: 0.4rem;
+}
+.logo-con{
+    margin-left: 10rem;
+    padding: 0rem;
+}

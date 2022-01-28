@@ -1,0 +1,32 @@
+.table-head-con{
+    display: flex;
+    color: #fff;
+    margin: 0 5rem;
+    padding: 0.6rem 4rem;
+    background-color: #C55A11;
+    margin-top: 1rem;
+}
+.table-head-text{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.table-container{
+    background-color: #fff;
+    margin: 0 5rem;
+    border: #C55A11 solid 2px;
+    padding: 1rem 3rem;
+}
+.btn-view{
+    all: unset;
+    color: #C55A11;
+    display: block;
+    border: solid 2px #C55A11;
+    background-color: #fff;
+    padding: 0.2rem 3rem;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    
+}

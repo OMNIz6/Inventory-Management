@@ -1,0 +1,16 @@
+.btn-edit{
+    all: unset;
+    color: #C55A11;
+    border: solid 2px #C55A11;
+    background-color: #fff;
+    padding: 0.2rem 0;
+    width: 40%;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+.texti{
+    display: inline;
+}
